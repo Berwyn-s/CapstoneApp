@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CapstoneApp</string>
+    <string name="title_favorites">Favorites</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="movies">Movies</string>
+    <string name="favorite_movies">Favorite Movies</string>
+
+    <string name="content_description">Picture</string>
+    <string name="image_darker">image darker</string>
+    <string name="share">Share</string>
+
+    <string name="lets_watch_this_movie">I want you to see this amazing movie! %s</string>
+    <string name="subject">I recommend  you a movie</string>
+    <string name="item_poster">Item poster</string>
+    <string name="item_header">Item Header</string>
+    <string name="poster_darker">Poster Darker</string>
+    <string name="add_favorite">Add Favorite</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
