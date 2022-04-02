@@ -16,7 +16,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
 
-        buildConfigField "String" , "API_TOKEN" , '"44fe31c7344a5d321f4cf2d91aefd946"'
+
     }
 
     buildTypes {
