@@ -49,7 +49,7 @@ class DetailActivity : AppCompatActivity() {
         binding?.collapsingToolbarLayout?.title = " "
 
         contentBinding?.FavoriteBtn?.setOnClickListener {
-            val message = if (movie.favorite) "Removed from favorite" else "Added to favorite";
+            val message = if (movie.favorite) "Removed from favorite" else "Added to favorite"
             viewModel.setMovieFavorite(movie, !movie.favorite)
             Toast.makeText(applicationContext, message, Toast.LENGTH_SHORT ).show()
             movie.favorite = !movie.favorite
