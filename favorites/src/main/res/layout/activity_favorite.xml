@@ -7,6 +7,7 @@ android:layout_height="match_parent"
 tools:context=".FavoriteActivity">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_movies"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="12dp"
@@ -19,6 +20,7 @@ tools:context=".FavoriteActivity">
 
     <ProgressBar
         style="?android:attr/progressBarStyle"
+        android:id="@+id/progress_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"

@@ -7,6 +7,6 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 @HiltViewModel
-class MovieViewModel @Inject constructor(movieUseCase: MovieUseCase) : ViewModel() {
+class MovieViewModel @Inject constructor(private val movieUseCase: MovieUseCase) : ViewModel() {
     val allMovies = movieUseCase.getAllMovie().asLiveData()
 }

@@ -3,6 +3,7 @@ package com.example.core.utils
 
 import com.example.core.data.source.local.entity.MovieEntity
 import com.example.core.data.source.remote.response.MoviesResponse
+import com.example.core.data.source.remote.response.ResultsMovies
 import com.example.core.domain.model.Movie
 
 
