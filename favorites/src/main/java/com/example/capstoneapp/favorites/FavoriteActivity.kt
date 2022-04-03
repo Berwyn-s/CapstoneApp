@@ -15,7 +15,6 @@ import com.example.core.ui.MovieAdapter
 import dagger.hilt.android.EntryPointAccessors
 import javax.inject.Inject
 
-
 class FavoriteActivity : AppCompatActivity() {
 
     @Inject
